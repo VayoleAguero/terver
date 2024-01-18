@@ -347,13 +347,13 @@ plt.show()
 '''немного исправлений после консультации'''
 #Наблюдаемое значение хи-квадрат
 # Подсчитайте частоту каждого уникального значения в выборке
-frequencies = np.unique(sample_2, return_counts=True)[1]
+frequencies = np.unique(sample_2_2, return_counts=True)[1]
 
 # Вычислите χ²
 # Подсчитайте частоту каждого уникального значения в выборке
 
 X^2=Σ(Oi-Ei)^2/Ei
-frequencies = np.unique(sample_2, return_counts=True)[1]
+frequencies = np.unique(sample_2_2, return_counts=True)[1]
 chi2, p_value = chisquare(frequencies)
 print(f"Наблюдаемое значение хи-квадрат: {chi2}")
 
